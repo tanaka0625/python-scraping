@@ -19,3 +19,7 @@ RUN python -m pip install requests
 RUN python -m pip install beautifulsoup4
 RUN python -m pip install selenium
 RUN python -m pip install gspread
+RUN python -m pip install oauth2client
+RUN python -m pip install google-api-python-client
+RUN python -m pip install google-auth-httplib2
+RUN python -m pip install google-auth-oauthlib
